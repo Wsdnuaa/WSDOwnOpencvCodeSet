@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/src/gaussNewton.cc
+/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/src/LM.cc
 eigen3/Eigen/Core
 -
 eigen3/Eigen/Dense
 -
 opencv2/opencv.hpp
-/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/src/opencv2/opencv.hpp
+/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/src/opencv2/opencv.hpp
 iostream
 -
 vector

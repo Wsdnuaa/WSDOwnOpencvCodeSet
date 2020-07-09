@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton
+CMAKE_SOURCE_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build
+CMAKE_BINARY_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/guassNewton.dir/depend.make
@@ -57,38 +57,38 @@ include CMakeFiles/guassNewton.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/guassNewton.dir/flags.make
 
-CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o: CMakeFiles/guassNewton.dir/flags.make
-CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o: ../src/gaussNewton.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o -c /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/src/gaussNewton.cc
+CMakeFiles/guassNewton.dir/src/LM.cc.o: CMakeFiles/guassNewton.dir/flags.make
+CMakeFiles/guassNewton.dir/src/LM.cc.o: ../src/LM.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/guassNewton.dir/src/LM.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/guassNewton.dir/src/LM.cc.o -c /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/src/LM.cc
 
-CMakeFiles/guassNewton.dir/src/gaussNewton.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/guassNewton.dir/src/gaussNewton.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/src/gaussNewton.cc > CMakeFiles/guassNewton.dir/src/gaussNewton.cc.i
+CMakeFiles/guassNewton.dir/src/LM.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/guassNewton.dir/src/LM.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/src/LM.cc > CMakeFiles/guassNewton.dir/src/LM.cc.i
 
-CMakeFiles/guassNewton.dir/src/gaussNewton.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/guassNewton.dir/src/gaussNewton.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/src/gaussNewton.cc -o CMakeFiles/guassNewton.dir/src/gaussNewton.cc.s
+CMakeFiles/guassNewton.dir/src/LM.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/guassNewton.dir/src/LM.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/src/LM.cc -o CMakeFiles/guassNewton.dir/src/LM.cc.s
 
-CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.requires:
+CMakeFiles/guassNewton.dir/src/LM.cc.o.requires:
 
-.PHONY : CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.requires
+.PHONY : CMakeFiles/guassNewton.dir/src/LM.cc.o.requires
 
-CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.provides: CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.requires
-	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.provides.build
-.PHONY : CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.provides
+CMakeFiles/guassNewton.dir/src/LM.cc.o.provides: CMakeFiles/guassNewton.dir/src/LM.cc.o.requires
+	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/LM.cc.o.provides.build
+.PHONY : CMakeFiles/guassNewton.dir/src/LM.cc.o.provides
 
-CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.provides.build: CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o
+CMakeFiles/guassNewton.dir/src/LM.cc.o.provides.build: CMakeFiles/guassNewton.dir/src/LM.cc.o
 
 
 # Object files for target guassNewton
 guassNewton_OBJECTS = \
-"CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o"
+"CMakeFiles/guassNewton.dir/src/LM.cc.o"
 
 # External object files for target guassNewton
 guassNewton_EXTERNAL_OBJECTS =
 
-guassNewton: CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o
+guassNewton: CMakeFiles/guassNewton.dir/src/LM.cc.o
 guassNewton: CMakeFiles/guassNewton.dir/build.make
 guassNewton: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
 guassNewton: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
@@ -136,7 +136,7 @@ guassNewton: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
 guassNewton: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
 guassNewton: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
 guassNewton: CMakeFiles/guassNewton.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable guassNewton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable guassNewton"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/guassNewton.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,7 +144,7 @@ CMakeFiles/guassNewton.dir/build: guassNewton
 
 .PHONY : CMakeFiles/guassNewton.dir/build
 
-CMakeFiles/guassNewton.dir/requires: CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o.requires
+CMakeFiles/guassNewton.dir/requires: CMakeFiles/guassNewton.dir/src/LM.cc.o.requires
 
 .PHONY : CMakeFiles/guassNewton.dir/requires
 
@@ -153,6 +153,6 @@ CMakeFiles/guassNewton.dir/clean:
 .PHONY : CMakeFiles/guassNewton.dir/clean
 
 CMakeFiles/guassNewton.dir/depend:
-	cd /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles/guassNewton.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles/guassNewton.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/guassNewton.dir/depend
 

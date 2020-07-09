@@ -1,0 +1,3 @@
+/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles/rebuild_cache.dir
+/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles/edit_cache.dir
+/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles/guassNewton.dir

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton
+CMAKE_SOURCE_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build
+CMAKE_BINARY_DIR = /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ guassNewton/fast:
 	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/build
 .PHONY : guassNewton/fast
 
-src/gaussNewton.o: src/gaussNewton.cc.o
+src/LM.o: src/LM.cc.o
 
-.PHONY : src/gaussNewton.o
+.PHONY : src/LM.o
 
 # target to build an object file
-src/gaussNewton.cc.o:
-	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o
-.PHONY : src/gaussNewton.cc.o
+src/LM.cc.o:
+	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/LM.cc.o
+.PHONY : src/LM.cc.o
 
-src/gaussNewton.i: src/gaussNewton.cc.i
+src/LM.i: src/LM.cc.i
 
-.PHONY : src/gaussNewton.i
+.PHONY : src/LM.i
 
 # target to preprocess a source file
-src/gaussNewton.cc.i:
-	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/gaussNewton.cc.i
-.PHONY : src/gaussNewton.cc.i
+src/LM.cc.i:
+	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/LM.cc.i
+.PHONY : src/LM.cc.i
 
-src/gaussNewton.s: src/gaussNewton.cc.s
+src/LM.s: src/LM.cc.s
 
-.PHONY : src/gaussNewton.s
+.PHONY : src/LM.s
 
 # target to generate assembly for a file
-src/gaussNewton.cc.s:
-	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/gaussNewton.cc.s
-.PHONY : src/gaussNewton.cc.s
+src/LM.cc.s:
+	$(MAKE) -f CMakeFiles/guassNewton.dir/build.make CMakeFiles/guassNewton.dir/src/LM.cc.s
+.PHONY : src/LM.cc.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... guassNewton"
-	@echo "... src/gaussNewton.o"
-	@echo "... src/gaussNewton.i"
-	@echo "... src/gaussNewton.s"
+	@echo "... src/LM.o"
+	@echo "... src/LM.i"
+	@echo "... src/LM.s"
 .PHONY : help
 
 

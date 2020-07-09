@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/src/gaussNewton.cc" "/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles/guassNewton.dir/src/gaussNewton.cc.o"
+  "/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/src/LM.cc" "/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/myPnpWithLM/build/CMakeFiles/guassNewton.dir/src/LM.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
