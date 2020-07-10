@@ -1,3 +1,0 @@
-/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles/rebuild_cache.dir
-/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles/edit_cache.dir
-/home/wsd/Documents/src/git/WSDOwnOpencvCodeSet/gaussNewton/build/CMakeFiles/guassNewton.dir
