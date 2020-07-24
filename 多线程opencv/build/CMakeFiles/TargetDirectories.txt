@@ -1,3 +1,0 @@
-/home/wsdindemind/Documents/C++/git/WSDOwnOpencvCodeSet/多线程opencv/build/CMakeFiles/edit_cache.dir
-/home/wsdindemind/Documents/C++/git/WSDOwnOpencvCodeSet/多线程opencv/build/CMakeFiles/rebuild_cache.dir
-/home/wsdindemind/Documents/C++/git/WSDOwnOpencvCodeSet/多线程opencv/build/CMakeFiles/thread.dir

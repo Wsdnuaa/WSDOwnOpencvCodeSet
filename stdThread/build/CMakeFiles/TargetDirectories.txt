@@ -1,3 +1,0 @@
-/home/indemind/Documents/C++/wsd/WSDOwnOpencvCodeSet/stdThread/build/CMakeFiles/edit_cache.dir
-/home/indemind/Documents/C++/wsd/WSDOwnOpencvCodeSet/stdThread/build/CMakeFiles/rebuild_cache.dir
-/home/indemind/Documents/C++/wsd/WSDOwnOpencvCodeSet/stdThread/build/CMakeFiles/thread.dir
