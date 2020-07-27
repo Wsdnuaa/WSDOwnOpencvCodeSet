@@ -28,7 +28,7 @@ int main(){
 	resize(grayImg,grayImg,Size(1920, 1080));
 	GaussianBlur(grayImg,grayImg,Size(5,5),0,0);
 	//threshold(grayImg, grayImg, 0, 255,THRESH_OTSU);
-	//threshold(grayImg, grayImg, 100, 250,THRESH_BINARY);
+	
 	Mat grayImgAd = grayImg.clone();
 	myAdaptiveThreshold(grayImg,grayImgAd,255,ADAPTIVE_THRESH_MEAN_C,THRESH_BINARY,11,10);
 	Mat grayImgOtsu;
@@ -53,11 +53,12 @@ void myAdaptiveThreshold( Mat src , Mat dst, double maxValue,
    // Mat src = _src.getMat();
     Size size = src.size();
 	Mat downSampleSrc;
+	
 	const int b = 5;
 	resize(src,downSampleSrc,Size(0, 0),0.2,0.2);
     // _dst.create( size, src.type() );
     // Mat dst = _dst.getMat();
-
+	threshold(downSampleSrc, downSampleSrc, 20, 255,THRESH_TOZERO );
     if( maxValue < 0 )
     {
         dst = Scalar(0);
@@ -107,6 +108,9 @@ void myAdaptiveThreshold( Mat src , Mat dst, double maxValue,
         size.height = 1;
     }
 	resize(mean,mean,Size(0, 0),b,b);
+	threshold(mean, mean, 20, 255,THRESH_TOZERO );
+	namedWindow("thro",0);
+	imshow("thro",mean);
     for( auto i = 0; i < size.height; i++ )
     {
         const uchar* sdata = src.ptr(i);
@@ -114,8 +118,10 @@ void myAdaptiveThreshold( Mat src , Mat dst, double maxValue,
         uchar* ddata = dst.ptr(i);
 
         for( auto j = 0; j < size.width; j++ )
-            ddata[j] = tab[sdata[j] - mdata[j] + 255];
+            ddata[j] = tab[sdata[j] - mdata[j] + 255];//利用hash查表来代替计算
     }
+	//
+
 }
 
 
